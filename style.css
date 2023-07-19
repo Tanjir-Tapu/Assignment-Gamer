@@ -255,6 +255,7 @@ nav h1 {
 
 footer {
     background: #0B0223;
+    height: 630px;
 }
 .footer-title{
     display: flex;
@@ -292,7 +293,29 @@ footer a{
     text-decoration: none;
     color: #FFF;
 }
-
+.ul-tow{
+    display: flex;
+    padding-left: 730px;
+    padding-right: 730px;
+    margin-top: 70px;
+}
+.ul-li{
+    align-items: center;
+    margin-right: 60px;
+}
+.last-class{
+    color: #FFFFFF;
+    margin-top: 65px;
+}
+.last-p{
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    padding-left: 700px;
+    padding-right: 600px;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
 
 
 
