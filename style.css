@@ -186,7 +186,8 @@ nav h1 {
     font-weight: 700;
     padding-left: 240px;
     padding-right: 265px;
-    
+    margin-top: 200px;
+
 }
 
 .play-span {
@@ -195,9 +196,11 @@ nav h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.play-div{
-padding-right: 240px;
+
+.play-div {
+    padding-right: 240px;
 }
+
 .play-p {
     color: #534C64;
     text-align: right;
@@ -205,13 +208,44 @@ padding-right: 240px;
     font-weight: 400;
     margin-top: 0px;
 }
-.vejal-kaj{
 
-}
-.play-div-two{
+.play-div-two {
     position: relative;
     left: 900px;
     top: 60px;
+}
+
+.last-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 100px;
+}
+
+.btn-pr {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    border-radius: 50px;
+    padding: 20px 20px;
+    width: 281px;
+    height: 80px;
+    background: #FFF;
+}
+
+.btn-cont {
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-left: 250px;
+    padding-right: 250px;
+    gap: 50px;
+}
+.div-cont-tow{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 330px;
+    padding-right: 330px;
+    padding-bottom: 120px;
+    gap: 50px;
 }
 
 
