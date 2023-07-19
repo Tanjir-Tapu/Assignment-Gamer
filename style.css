@@ -138,6 +138,88 @@ nav h1 {
     margin-top: 40px;
 }
 
+.Online-Games-section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 120px;
+}
+
+.Online-Games-section-title-s {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Online-Games-section-p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.card-cont {
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+    gap: 30px;
+}
+
+.play-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play-cont-div {
+    align-items: center;
+}
+
+.play-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 240px;
+    padding-right: 265px;
+    
+}
+
+.play-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-div{
+padding-right: 240px;
+}
+.play-p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.vejal-kaj{
+
+}
+.play-div-two{
+    position: relative;
+    left: 900px;
+    top: 60px;
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!! */
 @media screen and (max-width: 576px) {
     .banner {
         flex-direction: column;
@@ -158,12 +240,12 @@ nav h1 {
     .nav-button {
         margin-left: 25px;
     }
-    .main-banner{
+
+    .main-banner {
         flex-direction: column-reverse;
         padding: 30px;
     }
-    .main-banner-img{
-        width: auto;
-    }
+
+    .main-banner-img {}
 
 }
