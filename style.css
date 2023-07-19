@@ -229,6 +229,7 @@ nav h1 {
     width: 281px;
     height: 80px;
     background: #FFF;
+    border: solid 1px;
 }
 
 .btn-cont {
