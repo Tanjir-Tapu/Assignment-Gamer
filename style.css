@@ -239,7 +239,8 @@ nav h1 {
     padding-right: 250px;
     gap: 50px;
 }
-.div-cont-tow{
+
+.div-cont-tow {
     display: flex;
     padding-top: 10px;
     padding-left: 330px;
@@ -247,6 +248,51 @@ nav h1 {
     padding-bottom: 120px;
     gap: 50px;
 }
+
+.btn-pr:hover {
+    color: #FF42A5;
+}
+
+footer {
+    background: #0B0223;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 830px;
+    padding-right: 830px;
+}
+.footer-img{
+    width: 86.041px;
+height: 40px;
+}
+
+.footer-h-tow {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-spn{
+    color: #FF42A5;
+}
+footer ul{
+    display: flex;
+    padding-left: 550px;
+    padding-right: 450px;
+}
+footer li{
+    list-style: none;
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 
 
 
@@ -280,6 +326,13 @@ nav h1 {
         padding: 30px;
     }
 
-    .main-banner-img {}
+    .Online-Games-section {
+        padding: 20px;
+    }
+
+    .card-cont {
+        flex-direction: column;
+        padding: 5px;
+    }
 
 }
