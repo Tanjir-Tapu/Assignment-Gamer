@@ -317,6 +317,10 @@ footer a{
     margin-top: 30px;
     margin-bottom: 130px;
 }
+#play-black:hover{
+    opacity: 0.8;
+    color: black;
+}
 
 
 
@@ -358,5 +362,18 @@ footer a{
         flex-direction: column;
         padding: 5px;
     }
+    .play-section{
+        flex-direction: column;
+    }
+    .btn-cont{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .btn-cont-tow{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
 
 }
